@@ -1,0 +1,210 @@
+body {
+  background: #f7f8fb;
+  margin: 0;
+  font-family: 'Montserrat';
+}
+
+.login-wrapper .main-photo {
+  overflow: hidden;
+  height: 100vh;
+  background: url("https://images.unsplash.com/photo-1533070478714-d399d9882ed1?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=29c64c95a82acce30e2b7e145d60ea31&auto=format&fit=crop&w=1950&q=80") no-repeat;
+  width: 100%;
+  background-size: 100%;
+  background-color: rgba(0, 0, 0, 0.7);
+  background-blend-mode: multiply;
+}
+
+.login-wrapper .main-photo .main-content {
+  height: 100vh;
+  bottom: 100px;
+  display: -ms-flexbox;
+  display: flex;
+  position: relative;
+  -ms-flex-pack: center;
+      justify-content: center;
+  -ms-flex-align: center;
+      align-items: center;
+}
+
+.login-wrapper .main-photo .main-content .log-box {
+  display: none;
+  border-radius: 10px;
+  width: 370px;
+  height: 450px;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.login-wrapper .main-photo .main-content .log-box.active {
+  display: block;
+}
+
+.login-wrapper .main-photo .main-content .log-box .top-part {
+  padding: 40px 0;
+}
+
+.login-wrapper .main-photo .main-content .log-box .top-part div {
+  text-align: center;
+  font-weight: bold;
+  background-image: linear-gradient(to right, #ff9524, #ff2d56);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 30px;
+}
+
+.login-wrapper .main-photo .main-content .log-box .top-part span {
+  margin-top: 5px;
+  color: #656565;
+  display: block;
+  font-size: 12px;
+  text-align: center;
+}
+
+.login-wrapper .main-photo .main-content .log-box .correct {
+  display: none;
+  font-size: 12px;
+  color: red;
+  text-align: center;
+}
+
+.login-wrapper .main-photo .main-content .log-box .correct.active {
+  display: block;
+}
+
+.login-wrapper .main-photo .main-content .log-box .log-form {
+  width: 250px;
+  margin: 0 auto;
+}
+
+.login-wrapper .main-photo .main-content .log-box .log-form .login {
+  border-bottom: 1px solid #818181;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-align: center;
+      align-items: center;
+  margin-bottom: 25px;
+}
+
+.login-wrapper .main-photo .main-content .log-box .log-form .login.active {
+  border-bottom: 1px solid #a75a1d;
+}
+
+.login-wrapper .main-photo .main-content .log-box .log-form .login input {
+  -ms-flex-preferred-size: 100%;
+      flex-basis: 100%;
+  color: #919191;
+  border: none;
+  outline: none;
+  background: transparent;
+}
+
+.login-wrapper .main-photo .main-content .log-box .log-form .login input:focus {
+  color: #fff;
+}
+
+.login-wrapper .main-photo .main-content .log-box .log-form .login i {
+  color: #ff2d56;
+}
+
+.login-wrapper .main-photo .main-content .log-box .log-form .password {
+  border-bottom: 1px solid #818181;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-align: center;
+      align-items: center;
+  margin-bottom: 35px;
+}
+
+.login-wrapper .main-photo .main-content .log-box .log-form .password input {
+  -ms-flex-positive: 1;
+      flex-grow: 1;
+  width: 108px;
+  color: #919191;
+  border: none;
+  outline: none;
+  background: transparent;
+}
+
+.login-wrapper .main-photo .main-content .log-box .log-form .password input:focus {
+  color: #fff;
+}
+
+.login-wrapper .main-photo .main-content .log-box .log-form .password i {
+  color: #ff2d56;
+}
+
+.login-wrapper .main-photo .main-content .log-box .log-form .password .forget-pw {
+  font-size: 12px;
+  color: #919191;
+  text-decoration: none;
+}
+
+.login-wrapper .main-photo .main-content .log-box .log-form .confirm {
+  margin-bottom: 15px;
+}
+
+.login-wrapper .main-photo .main-content .log-box .log-form .confirm input {
+  box-shadow: 1px 1px 29px 2px rgba(255, 105, 84, 0.3);
+  border-radius: 5px;
+  background: linear-gradient(to right, #ff6954 0%, #ff3353 100%);
+  border: none;
+  color: white;
+  height: 45px;
+  width: 100%;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-align: center;
+      align-items: center;
+  -ms-flex-pack: center;
+      justify-content: center;
+  font-size: 12px;
+  cursor: pointer;
+}
+
+.login-wrapper .main-photo .main-content .log-box .log-form .log-fb {
+  border-radius: 5px;
+  background: linear-gradient(to right, #1e54f0 0%, #3cb4f0 100%);
+  border: none;
+  color: white;
+  height: 45px;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-align: center;
+      align-items: center;
+  text-decoration: none;
+  -ms-flex-pack: center;
+      justify-content: center;
+  font-size: 12px;
+  cursor: pointer;
+}
+
+.login-wrapper .main-photo .main-content .log-box .log-form .log-fb .fb-btn {
+  margin-right: 10px;
+}
+
+.login-wrapper .main-photo .main-content .log-box .log-form .log-fb img {
+  width: 25%;
+}
+
+.login-wrapper .main-photo .main-content .log-box .bottom-part {
+  margin: 40px 0;
+  -ms-flex-align: center;
+      align-items: center;
+  -ms-flex-pack: center;
+      justify-content: center;
+  font-size: 12px;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.login-wrapper .main-photo .main-content .log-box .bottom-part div {
+  color: #fff;
+  margin-right: 5px;
+}
+
+.login-wrapper .main-photo .main-content .log-box .bottom-part .register-btn {
+  text-decoration: none;
+  font-weight: bold;
+  background-image: linear-gradient(to right, #ff6954 0%, #ff3353 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}

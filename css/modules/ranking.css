@@ -1,0 +1,284 @@
+body {
+  background: #f2f2f2;
+  margin: 0;
+}
+
+.ranking-detail-wrapper {
+  font-family: Montserrat;
+  margin: 0 auto;
+}
+
+.ranking-detail-wrapper .ranking {
+  width: 650px;
+  margin: 0 auto;
+}
+
+.ranking-detail-wrapper .ranking .header {
+  margin: 40px 0 30px 0;
+  display: -ms-flexbox;
+  display: flex;
+  font-size: 60px;
+  -ms-flex-align: center;
+      align-items: center;
+  -ms-flex-pack: center;
+      justify-content: center;
+  font-weight: 700;
+  position: relative;
+}
+
+.ranking-detail-wrapper .ranking .header .post {
+  text-decoration: none;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-align: center;
+      align-items: center;
+  text-transform: uppercase;
+  font-size: 12px;
+  position: absolute;
+  right: 565px;
+}
+
+.ranking-detail-wrapper .ranking .header .post:before {
+  content: "";
+  width: 125px;
+  display: block;
+  height: 1px;
+  position: absolute;
+  bottom: -4px;
+  background: #000;
+}
+
+.ranking-detail-wrapper .ranking .header .post:hover:before {
+  width: 65px;
+  transition: width .5s ease-in-out;
+}
+
+.ranking-detail-wrapper .ranking .header .post > div {
+  color: #000;
+}
+
+.ranking-detail-wrapper .ranking .header .post i {
+  margin: 0 5px 0 -5px;
+}
+
+.ranking-detail-wrapper .ranking .header .title {
+  margin: 0 20px;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.ranking-detail-wrapper .ranking .header .title .left-text:after {
+  content: ":";
+  position: relative;
+  bottom: 12px;
+}
+
+.ranking-detail-wrapper .ranking .header .title .right-text {
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-image: linear-gradient(to right, #ff6954 0%, #ff3353 100%);
+}
+
+.ranking-detail-wrapper .ranking .header .debiuts {
+  text-decoration: none;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-align: center;
+      align-items: center;
+  text-transform: uppercase;
+  font-size: 12px;
+  position: absolute;
+  left: 551px;
+}
+
+.ranking-detail-wrapper .ranking .header .debiuts:before {
+  content: "";
+  width: 125px;
+  display: block;
+  height: 1px;
+  position: absolute;
+  bottom: -4px;
+  right: 0;
+  background: #000;
+}
+
+.ranking-detail-wrapper .ranking .header .debiuts:hover:before {
+  width: 80px;
+  transition: width .5s ease-in-out;
+}
+
+.ranking-detail-wrapper .ranking .header .debiuts > div {
+  color: #000;
+}
+
+.ranking-detail-wrapper .ranking .header .debiuts i {
+  margin: 0 -5px 0 5px;
+}
+
+.ranking-detail-wrapper .ranking .leader {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-align: center;
+      align-items: center;
+  -ms-flex-pack: center;
+      justify-content: center;
+}
+
+.ranking-detail-wrapper .ranking .leader li:nth-of-type(1) {
+  -ms-flex-order: 2;
+      order: 2;
+  padding: 0 50px;
+}
+
+.ranking-detail-wrapper .ranking .leader li:nth-of-type(1) a .photo {
+  width: 115px;
+  height: 115px;
+}
+
+.ranking-detail-wrapper .ranking .leader li:nth-of-type(1) a .nick-pts .nick-name {
+  padding: 5px 20px;
+  background: linear-gradient(to right, #ff6954 0%, #ff3353 100%);
+  border-radius: 20px;
+  font-size: 16px;
+}
+
+.ranking-detail-wrapper .ranking .leader li:nth-of-type(1) a .nick-pts .nick-name span {
+  width: 20px;
+  height: 20px;
+  color: #ff6954;
+}
+
+.ranking-detail-wrapper .ranking .leader li:nth-of-type(1) a .points {
+  font-size: 11px;
+}
+
+.ranking-detail-wrapper .ranking .leader li:nth-of-type(2) {
+  -ms-flex-order: 1;
+      order: 1;
+}
+
+.ranking-detail-wrapper .ranking .leader li:nth-of-type(3) {
+  -ms-flex-order: 3;
+      order: 3;
+}
+
+.ranking-detail-wrapper .ranking .leader li a {
+  text-decoration: none;
+}
+
+.ranking-detail-wrapper .ranking .leader li a .photo {
+  border-radius: 50%;
+  width: 75px;
+  height: 75px;
+  margin: 0 auto;
+  overflow: hidden;
+  margin-bottom: 10px;
+  position: relative;
+}
+
+.ranking-detail-wrapper .ranking .leader li a .photo img {
+  max-width: 100%;
+}
+
+.ranking-detail-wrapper .ranking .leader li .nick-pts {
+  text-align: center;
+}
+
+.ranking-detail-wrapper .ranking .leader li .nick-pts .nick-name {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-align: center;
+      align-items: center;
+  padding: 6px 12px;
+  background: #000;
+  border-radius: 18px;
+  font-size: 12px;
+  font-weight: 500;
+}
+
+.ranking-detail-wrapper .ranking .leader li .nick-pts .nick-name div {
+  color: #fff;
+}
+
+.ranking-detail-wrapper .ranking .leader li .nick-pts .nick-name span {
+  width: 15px;
+  height: 15px;
+  margin-right: 5px;
+  background: #fff;
+  border-radius: 50%;
+  color: #000;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: center;
+      justify-content: center;
+  -ms-flex-align: center;
+      align-items: center;
+}
+
+.ranking-detail-wrapper .ranking .leader li .nick-pts .points {
+  margin-top: 5px;
+  color: #6a717e;
+  font-size: 9px;
+}
+
+.ranking-detail-wrapper .ranking .others {
+  list-style: none;
+  margin: 30px 0 0 0;
+  padding: 0;
+}
+
+.ranking-detail-wrapper .ranking .others li a {
+  color: #000;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-align: center;
+      align-items: center;
+  border-top: 1px solid #d0d2d5;
+  text-decoration: none;
+  padding: 10px 0;
+  font-weight: bold;
+}
+
+.ranking-detail-wrapper .ranking .others li a .place {
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-image: linear-gradient(to right, #ff6954 0%, #ff3353 100%);
+  font-size: 14px;
+}
+
+.ranking-detail-wrapper .ranking .others li a .user {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-align: center;
+      align-items: center;
+  -ms-flex-positive: 1;
+      flex-grow: 1;
+}
+
+.ranking-detail-wrapper .ranking .others li a .user .photo {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  overflow: hidden;
+  margin: 0px 10px 0 15px;
+}
+
+.ranking-detail-wrapper .ranking .others li a .user .photo img {
+  max-width: 92%;
+  position: relative;
+  left: 8%;
+}
+
+.ranking-detail-wrapper .ranking .others li a .user .nick-name {
+  font-size: 14px;
+}
+
+.ranking-detail-wrapper .ranking .others li a .points {
+  font-size: 12px;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-image: linear-gradient(to right, #ff6954 0%, #ff3353 100%);
+}

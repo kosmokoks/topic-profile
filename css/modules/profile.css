@@ -1,0 +1,244 @@
+body {
+  background: #f2f2f2;
+  margin: 0;
+}
+
+.profile-main-wrapper {
+  font-family: Montserrat;
+  margin: 0 auto;
+}
+
+.profile-main-wrapper .profile-wrapper {
+  margin: 50px 190px;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.profile-main-wrapper .profile-wrapper .left-wrapper {
+  -ms-flex-preferred-size: 20%;
+      flex-basis: 20%;
+}
+
+.profile-main-wrapper .profile-wrapper .left-wrapper .profile-box {
+  box-shadow: 0 6px 30px rgba(0, 0, 0, 0.15);
+  padding: 10px 15px;
+  background: #fff;
+}
+
+.profile-main-wrapper .profile-wrapper .left-wrapper .profile-box .top-part {
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.profile-main-wrapper .profile-wrapper .left-wrapper .profile-box .top-part i {
+  color: #737d8d;
+}
+
+.profile-main-wrapper .profile-wrapper .left-wrapper .profile-box .top-part i:first-of-type {
+  -ms-flex-positive: 1;
+      flex-grow: 1;
+}
+
+.profile-main-wrapper .profile-wrapper .left-wrapper .profile-box .added-post-bar {
+  margin: 0 -15px;
+  border-bottom: 1px solid #cfd1d3;
+  padding: 30px 0 40px 0;
+}
+
+.profile-main-wrapper .profile-wrapper .left-wrapper .profile-box .added-post-bar .text {
+  margin: 0 10px;
+  font-size: 12px;
+  font-weight: 500;
+  color: #000;
+}
+
+.profile-main-wrapper .profile-wrapper .left-wrapper .profile-box .added-post-bar .bar {
+  -ms-flex-pack: justify;
+      justify-content: space-between;
+  margin: 5px 10px 0 10px;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-align: center;
+      align-items: center;
+}
+
+.profile-main-wrapper .profile-wrapper .left-wrapper .profile-box .added-post-bar .bar .strap {
+  -ms-flex-preferred-size: 90%;
+      flex-basis: 90%;
+  border-radius: 15px;
+  background: #cfd1d3;
+}
+
+.profile-main-wrapper .profile-wrapper .left-wrapper .profile-box .added-post-bar .bar .strap .overlay-strap {
+  box-shadow: 83px 0px 115px -28px #ff6954;
+  width: 60%;
+  padding: 4px 0;
+  border-radius: 15px;
+  background: linear-gradient(to right, #ff6954 0%, #ff3353 100%);
+}
+
+.profile-main-wrapper .profile-wrapper .left-wrapper .profile-box .added-post-bar .bar span {
+  font-weight: 500;
+  font-size: 12px;
+  display: block;
+}
+
+.profile-main-wrapper .profile-wrapper .left-wrapper .profile-box .info-box {
+  margin: 33px 0;
+}
+
+.profile-main-wrapper .profile-wrapper .left-wrapper .profile-box .info-box div {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-align: center;
+      align-items: center;
+  font-size: 12px;
+  font-weight: 500;
+  color: #000;
+}
+
+.profile-main-wrapper .profile-wrapper .left-wrapper .profile-box .info-box div div {
+  margin: 7px 0;
+}
+
+.profile-main-wrapper .profile-wrapper .left-wrapper .profile-box .info-box div div:first-of-type {
+  color: #737d8d;
+  -ms-flex-positive: 1;
+      flex-grow: 1;
+}
+
+.profile-main-wrapper .profile-wrapper .left-wrapper .profile-box .follow-btn {
+  background: linear-gradient(to right, #ff6954 0%, #ff3353 100%);
+  color: #fff;
+  font-weight: 500;
+  display: -ms-flexbox;
+  display: flex;
+  top: 26px;
+  position: relative;
+  -ms-flex-align: center;
+      align-items: center;
+  -ms-flex-pack: center;
+      justify-content: center;
+  border-radius: 20px;
+  width: 130px;
+  height: 35px;
+  font-size: 12px;
+  margin: 0 auto;
+}
+
+.profile-main-wrapper .profile-wrapper .right-wrapper {
+  -ms-flex-preferred-size: 80%;
+      flex-basis: 80%;
+  margin: 0 20px;
+}
+
+.profile-main-wrapper .profile-wrapper .right-wrapper .head-bar {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-align: center;
+      align-items: center;
+}
+
+.profile-main-wrapper .profile-wrapper .right-wrapper .head-bar .text {
+  -ms-flex-positive: 1;
+      flex-grow: 1;
+}
+
+.profile-main-wrapper .profile-wrapper .right-wrapper .head-bar .text h1 {
+  font-size: 26px;
+  margin: 0;
+  padding: 0;
+}
+
+.profile-main-wrapper .profile-wrapper .right-wrapper .head-bar .text span {
+  font-size: 12px;
+  display: block;
+  color: #737d8d;
+}
+
+.profile-main-wrapper .profile-wrapper .right-wrapper .head-bar .type {
+  display: -ms-flexbox;
+  display: flex;
+  border: 1px solid #e4e5ec;
+  border-radius: 25px;
+  color: #737d8d;
+  font-size: 12px;
+  font-weight: 500;
+  -ms-flex-align: center;
+      align-items: center;
+}
+
+.profile-main-wrapper .profile-wrapper .right-wrapper .head-bar .type .btn-change {
+  width: 50%;
+  text-align: center;
+  padding: 10px 20px;
+}
+
+.profile-main-wrapper .profile-wrapper .right-wrapper .head-bar .type .btn-change.active {
+  border-radius: 25px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  background: #fff;
+  color: #ff3353;
+}
+
+.profile-main-wrapper .profile-wrapper .right-wrapper .photo-content .row {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-align: center;
+      align-items: center;
+  margin: 27px -10px;
+}
+
+.profile-main-wrapper .profile-wrapper .right-wrapper .photo-content .row .col {
+  cursor: pointer;
+  -ms-flex-preferred-size: 33.333%;
+      flex-basis: 33.333%;
+  margin: 0 10px;
+  transition: all .4s ease-in-out;
+}
+
+.profile-main-wrapper .profile-wrapper .right-wrapper .photo-content .row .col:hover {
+  -webkit-transform: scale(1.03);
+          transform: scale(1.03);
+}
+
+.profile-main-wrapper .profile-wrapper .right-wrapper .photo-content .row .col .pic {
+  border-radius: 7px;
+  overflow: hidden;
+  height: 200px;
+}
+
+.profile-main-wrapper .profile-wrapper .right-wrapper .photo-content .row .col .pic img {
+  max-width: 100%;
+}
+
+.profile-main-wrapper .profile-wrapper .right-wrapper .photo-content .row .col .icons-bar {
+  margin-top: 4px;
+  font-size: 10px;
+  color: #737d8d;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-align: center;
+      align-items: center;
+}
+
+.profile-main-wrapper .profile-wrapper .right-wrapper .photo-content .row .col .icons-bar .left-side {
+  -ms-flex-positive: 1;
+      flex-grow: 1;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-align: center;
+      align-items: center;
+}
+
+.profile-main-wrapper .profile-wrapper .right-wrapper .photo-content .row .col .icons-bar .left-side div {
+  margin-right: 5px;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-align: center;
+      align-items: center;
+}
+
+.profile-main-wrapper .profile-wrapper .right-wrapper .photo-content .row .col .icons-bar .left-side div i {
+  margin-right: 2px;
+}
